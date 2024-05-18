@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 4% ;
+}
+
+.navbar .logo{
+    width:max(10%,80px);
+    /*width to 10% of the parent element's width, but not less than 80px. So, if the parent element's width is greater than or equal to 800px, the width would be 80px; otherwise, it would be 10% of the parent element's width.*/
+
+}
+
+.navbar .profile{
+    width:40px;
+}

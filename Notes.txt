@@ -1,0 +1,4 @@
+packages:
+1. axios - GET/POSTetc
+2. react-toastify - Notifications 
+3. react-router-dom
