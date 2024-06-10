@@ -1,0 +1,1 @@
+find /usr/share/nginx/html/assets -type f -exec sed -i 's|%%VITE_APP_BACKEND_URL%%|'"${VITE_APP_BACKEND_URL:-undefined}"'|g' {} +
